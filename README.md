@@ -15,10 +15,10 @@ N/A
 
 ```
 To use this web application, you can review the notes in each section. 
-For suggestions on what to study first, open the Chrome DevTools by pressing
-Command+Option+I (macOS) or Control+Shift+I (Windows.
+For suggestions on what to study first, open the Chrome DevTools.
+Press Command+Option+I (macOS) or Control+Shift+I (Windows.
 A console panel should open either below or to the side of the webpage in the browser.
-There you will see a list of topics we learned from the prework along with a suggestion on which topic to study first.
+There you will see a list of topics along with a suggestion on which topic to study first.
 You can also type a specific topic in the search bar that will guide you to W3 Schools.
 ```
 
