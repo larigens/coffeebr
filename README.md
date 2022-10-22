@@ -3,8 +3,8 @@
 ## Description
 
 ```
-This web application is an aid, designed to help keep track of our learning throughout the bootcamp.
-It is also a way to indicate everything we have learned and recognize our progress.
+This web application is an aid, designed to help me keep track of all my notes.
+It is also a way to indicate everything I have learned and recognize my progress.
 ```
 
 ## Installation
