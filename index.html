@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./root/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./root/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./root/favicon-16x16.png">
+    <link rel="manifest" href="./root/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Coffee&ltbr&gt</title>
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="index.html" class="coffee">Coffee<span><img src="./assets/images/logo.PNG"
+                        alt="break tag" /></span><span class="break">&ltbr&gt</span></a>
+        </h1>
+        <nav>
+            <a href="index.html" class="tab">Home</a>
+            <a href="html-notes.html" class="tab">HTML</a>
+            <a href="css-notes.html" class="tab">CSS</a>
+            <a href="git-cli-notes.html" class="tab">Git & CLI</a>
+            <a href="javascript-notes.html" class="tab">JavaScript</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2 class="site-description">This web application is an aid, designed to help keep track of our learning
+                throughout the bootcamp. It is
+                also
+                a way to indicate everything we have learned and recognize our progress.</h2>
+            <form action="https://www.w3schools.com/search" method="get" class="searchbar">
+                <input type="text" id="searchbar" onkeyup="search_content()" name="q"
+                    placeholder="I want to learn about..."></input>
+                <button type="submit" class="iconbtn"><i class="material-symbols-outlined">
+                        search
+                    </i></button>
+            </form>
+        </section>
+
+        <section class="topic-cards">
+            <div class="container">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <i class="material-symbols-outlined">html</i>
+                            <h4>Hypertext Markup Language</h4>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>HTML elements are usually composed of an opening tag and a closing tag represented with
+                                angle brackets.
+                            </p>
+                            <a href="html-notes.html" type="button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <i class="material-symbols-outlined">css</i>
+                            <h4>Cascading Style Sheets</h4>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet,
+                                and external CSS
+                                style sheet.</p>
+                            <a href="css-notes.html" type="button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <i class="material-symbols-outlined">terminal</i>
+                            <h4>Git & CLI</h4>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Git commands always start with git and are used to save and track versions of your
+                                code.
+                            </p>
+                            <a href="git-cli-notes.html" type="button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <i class="material-symbols-outlined">javascript</i>
+                            <h4>JavaScript</h4>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Is a high-level dynamic programming language that allows users to interact with websites.
+                            </p>
+                            <a href="javascript-notes.html" type="button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <h4>We can
+            <span class="code">code!</span>
+        </h4>
+    </footer>
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>

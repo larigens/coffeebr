@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: azure;
+    font-weight: lighter;
+    font-family: 'Kalam', cursive;
+}
+
+body {
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+}
+
+header {
+    height: 100px;
+    padding: 0 1em;
+}
+
+header h1 {
+    float: left;
+}
+
+h1,
+.coffee {
+    font-style: italic;
+    font-size: 43px;
+    padding-top: 4px;
+    letter-spacing: 0.9rem;
+    margin-left: 10px;
+}
+
+h1,
+img {
+    margin-top: 15px;
+}
+
+img {
+    vertical-align: text-bottom;
+    margin-bottom: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+}
+
+/* text-fill needs to be transparent to show the gradient */
+.break,
+.code {
+    background: -webkit-linear-gradient(azure, #096474fc);
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+    float: right;
+    margin-right: 20px;
+    padding-left: 5px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    color: #096474fc;
+    font-weight: 500;
+}
+
+/* When active it keeps the hover color*/
+
+a {
+    text-decoration: none;
+}
+
+.tab {
+    margin: 20px;
+    font-size: 19px;
+    float: left;
+    display: block;
+}
+
+.search-section {
+    height: 28vh;
+    width: 100%;
+    padding: 35px 4px;
+    margin: 0 0 0 20px;
+    text-align: center;
+}
+
+.site-description {
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.material-symbols-outlined {
+    margin: 5px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+h2,
+.coffee,
+.tab,
+.iconbtn {
+    color: azure;
+}
+
+::placeholder {
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+input[type=text] {
+    width: 30%;
+    color: #096474fc;
+    transition: width 0.15s ease-in-out;
+    box-shadow: 0 2px 20px #096474fc;
+    border-radius: 50px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 45px;
+}
+
+input[type=text]:focus {
+    width: 40%;
+}
+
+button {
+    border: none;
+    vertical-align: middle;
+}
+
+.topic-cards {
+    padding-left: 50px;
+}
+
+/* Cards with the topics */
+.container {
+    width: 1500px;
+    margin-left: 40px;
+    padding: 3px;
+    justify-content: space-between;
+}
+
+.container,
+.container .card .face.face1,
+.container .card .face.face2 {
+    display: flex;
+}
+
+.container .card .face {
+    width: 340px;
+    height: 200px;
+    transition: .8s;
+}
+
+.container .card .face.face1 {
+    position: relative;
+    justify-content: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+button,
+.container .card .face.face1,
+.container .card .face.face2 .content a:hover {
+    background: #000000;
+    color: azure;
+}
+
+.container .card:hover .face.face1,
+.container .card:hover .face.face2 {
+    transform: translateY(0);
+}
+
+.container .card:hover .face.face1,
+.container .card .face.face2 {
+    box-shadow: 0 2px 40px #096474fc;
+}
+
+.container .card .face.face1 .content {
+    opacity: 0.6;
+}
+
+.container .card .face.face1,
+.container .card .face.face1 .content,
+.container .card .face.face1 .content h4,
+.container .card .face.face2,
+.container .card .face.face2 .content p,
+a {
+    text-align: center;
+    align-items: center;
+}
+
+.container .card:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.container .card .face.face1 .content i {
+    font-size: 50px;
+}
+
+.container .card .face.face2 {
+    background: azure;
+    padding: 15px;
+    box-sizing: border-box;
+    transform: translateY(-100px);
+}
+
+.container .card .face.face2 .content p {
+    margin: 10px 5px 12px 0;
+}
+
+.container .card .face.face2 .content p,
+a {
+    color: #000000;
+    font-family: 'Kalam', cursive;
+    font-size: 15px;
+}
+
+.container .card .face.face2 .content a {
+    outline: 1px dashed #096474fc;
+    padding: 3px 7px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.code {
+    font-size: 30px;
+    letter-spacing: 0.3rem;
+}
+
+footer {
+    margin: 40px;
+    padding: 4px 2px;
+}
